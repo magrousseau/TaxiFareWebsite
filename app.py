@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 '''
 # TaxiFareModel front
 '''
@@ -36,6 +37,7 @@ if url == 'http://taxifare.lewagon.ai/predict_fare/':
 
     st.markdown('Maybe you want to use your own API for the prediction, not the one provided by Le Wagon...')
 
+st.text('hello')
 '''
 
 2. Let's build a dictionary containing the parameters for our API...
